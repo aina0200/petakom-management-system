@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/homepage', function () {
+    return view('homepage');
+});
+
 Route::get('/', function () {
-    return view('Home');
+    return view('Manage Committee Election/test');
 });
 
 Route::middleware([
