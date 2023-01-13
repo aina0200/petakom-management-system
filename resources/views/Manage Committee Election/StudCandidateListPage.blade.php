@@ -70,7 +70,19 @@
                     <button class="button button2">Result</button>
                 </div>
                 <div class="center">
-                    Calon Majlis Tertinggi
+                    <div>
+                        Calon Majlis Tertinggi
+                    </div>
+                    <div class="picture">
+                    <img src="/images/candidate/candidate 1.png" alt="candidate 1">
+                    <img src="/images/candidate/candidate 2.png" alt="candidate 2">
+                    <img src="/images/candidate/candidate 3.png" alt="candidate 2">
+                    </div>
+                    <div>
+                    Rubyatun Amirah <br>Binti Hanizam Amin
+                    IK SHIM A/P <br>EH FHOT
+                    MUHAMMAD NURHIDAYAT <br>BIN MOHD TAUFIK
+                    </div>
                 </div>
             </div>
     </body>
