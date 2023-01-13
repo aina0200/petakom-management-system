@@ -1,3 +1,4 @@
+
 .title {
     font-weight: bold;
     font-size: 55px;
@@ -10,16 +11,14 @@
  }
 
  .home-container{
-width: auto;
-min-height: 90%;
 background-color: lightgray;
 padding: 40px;;
 display: flex;
 justify-content: space-evenly;
-/* padding-bottom: */
+height: 100%;
  }
 
- .regis{
+ .home-container .regis{
     color: yellow;
     background-color: rgb(206, 3, 12);
     font-weight: bolder;
@@ -28,7 +27,7 @@ justify-content: space-evenly;
     padding: 24px;
  }
 
- .calendar{
+ .home-container .calendar{
     color: yellow;
     background-color: rgb(206, 3, 12);
     font-weight: bolder;
