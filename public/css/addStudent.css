@@ -9,7 +9,7 @@ h2{
 }
 .container{
     float: left;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 a{
   color: #333;
@@ -87,7 +87,7 @@ a:hover{
 
 p{
     font-size: 20px;
-    padding: 2px;
+    /* padding: 2px; */
 }
 /* img {
     width: 100px;

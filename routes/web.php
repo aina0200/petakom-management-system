@@ -25,6 +25,10 @@ Route::get('/Manage Registration/Lecturer/addLecturerProfile', function () {
     return view('Manage Registration/Lecturer/addLecturerProfile');
 });
 
+Route::get('/Manage Registration/Student/addStudentProfile', function () {
+    return view('Manage Registration/Student/addStudentProfile');
+});
+
 Route::get('/Manage Registration/RegNewMem', function () {
     return view('Manage Registration/RegNewMem');
 });

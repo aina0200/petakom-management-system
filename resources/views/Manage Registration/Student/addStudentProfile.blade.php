@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link href="/css/addLecturer.css" rel="stylesheet">
+    <link href="/css/addStudent.css" rel="stylesheet">
     <link href="/css/nav.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
         <title>Registration</title>
@@ -32,7 +32,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-5">
                             <div class="card">
-                                <h2 class="card-title text-center">Add Lecturer's Detail</h2>
+                                <h2 class="card-title text-center">Add Student's Detail</h2>
                                 <div class="card-body py-md-4">
                                     <form _lpchecked="1">
                                         <div class="form-group">
@@ -48,12 +48,16 @@
                                             <input type="int" class="form-control" id="number" placeholder="Phone number">
                                         </div>
                                         <div class="form-group">
-                                            <p>Office Location</p>
-                                            <input type="text" class="form-control" id="office" placeholder="Office Location">
+                                            <p>Gender</p>
+                                            <input type="text" class="form-control" id="office" placeholder="Gender">
                                         </div>
                                         <div class="form-group">
-                                            <p>Expertise</p>
-                                            <input type="text" class="form-control" id="expertise" placeholder="Expertise">
+                                            <p>Home Address</p>
+                                            <input type="text" class="form-control" id="office" placeholder="Home Address">
+                                        </div>
+                                        <div class="form-group">
+                                            <p>Program</p>
+                                            <input type="text" class="form-control" id="expertise" placeholder="Program">
                                         </div>  
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <a class="btn btn-cancel" href="#">Cancel</a>

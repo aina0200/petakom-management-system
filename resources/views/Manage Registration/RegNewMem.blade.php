@@ -31,7 +31,7 @@
                 <!-- buttons to add member -->
                 <div class="home-container">
                     <a class="my-button" title="Relevant Title" href="Lecturer/addLecturerProfile">New Faculty Lecturer</a>
-                    <a class="my-button" title="Relevant Title" href="#">New Student</a>
+                    <a class="my-button" title="Relevant Title" href="Student/addStudentProfile">New Student</a>
                 </div>
             </div>
         </div>
