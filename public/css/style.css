@@ -1,20 +1,24 @@
 
+body{
+   background: lightgray;
+}
+
 .title {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 50px;
     color: rgb(206, 3, 12);
-    margin-top: 20px;
+    background: white;
 }
  img {
-    width: 150px;
+    width: 120px;
     margin-left: 30px;
  }
 
  .home-container{
-background-color: lightgray;
-padding: 40px;;
 display: flex;
+padding: 20px;
 justify-content: space-evenly;
+align-items: center;
 height: 100%;
  }
 
@@ -27,6 +31,36 @@ height: 100%;
     padding: 24px;
  }
 
+ .button1{
+   color: white;
+    background-color: rgb(206, 3, 12);
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 10px;
+ }
+
+ .button2{
+   color: white;
+   text-align: center;
+    background-color: rgb(206, 3, 12);
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px;
+    float:right;
+    margin-right: 10px;
+ }
+
+ .homepage{
+   color: yellow;
+   background-color: rgb(206, 3, 12);
+   font-weight: bolder;
+   font-size: 20px;
+   border-radius: 12px;
+   padding: 15px;
+ }
+
  .home-container .calendar{
     color: yellow;
     background-color: rgb(206, 3, 12);
@@ -36,42 +70,37 @@ height: 100%;
     padding: 24px;
  }
 
- .proposal{
-    color: yellow;
-    background-color: rgb(206, 3, 12);
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 24px;
- }
-
- .activity{
-    color: yellow;
-    background-color: rgb(206, 3, 12);
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 24px;
- }
-
- .election{
-    color: yellow;
-    background-color: rgb(206, 3, 12);
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 24px;
- }
-
- .bulletin{
-    color: yellow;
-    background-color: rgb(206, 3, 12);
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 24px;
- }
-
  .footer{
-    text-align:end;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: end;
+   background: white;
+ }
+mark.red{
+   color: red;
+   background: lightgray;
+ }
+
+.top{
+   font-size: 18px;
+   margin-left: 25px;
+}
+
+.search input[type=text] {
+   padding: 6px;
+   margin-top: 8px;
+   margin-left: 25px;
+   border: none;
+   font-size: 17px;
+ }
+ 
+ .center{
+   font-size: 35px;
+   position: absolute;
+   justify-content: center;
+   background: white;
+   margin-left: 40%;
+   margin-top: 20px;
  }
