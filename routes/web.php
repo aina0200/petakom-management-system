@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('Home');
 });
 
+Route::get('/RegNewMem', function () {
+    return view('Manage Registration/RegNewMem');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
