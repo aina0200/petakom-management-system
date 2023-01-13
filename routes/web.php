@@ -21,7 +21,11 @@ Route::get('/', function () {
     return view('Manage Committee Election/test');
 });
 
-Route::get('/RegNewMem', function () {
+Route::get('/Manage Registration/Lecturer/addLecturerProfile', function () {
+    return view('Manage Registration/Lecturer/addLecturerProfile');
+});
+
+Route::get('/Manage Registration/RegNewMem', function () {
     return view('Manage Registration/RegNewMem');
 });
 
@@ -32,5 +36,5 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
-    })->name('dashboard');
+    })->name('dashboard');    
 });

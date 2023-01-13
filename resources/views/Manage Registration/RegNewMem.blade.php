@@ -2,6 +2,8 @@
 <html>
     <head>
     <link href="/css/regMemberStyle.css" rel="stylesheet">
+    <link href="/css/nav.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
         <title>Registration</title>
     </head>
     <body>
@@ -11,21 +13,30 @@
              REGISTRATION
         </header>
 
-        <!-- sidebar -->
+        <!-- navigation bar -->
         <div class="wrapper">
-            <!--Top menu -->
             <div class="sidebar">
-            <!--profile image & text-->
-                <!--menu item-->
+                <ul>
+                    <li><a href="/homepage">Dashboard</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Proposal</a></li>
+                    <li><a href="#">Activity</a></li>
+                    <li><a href="#">Committee Election</a></li>
+                    <li><a href="#">Bulletin</a></li>
+                </ul> 
             </div>
-
+            <!-- div to add content modules -->
+            <div class="main_content"> 
+                <!-- buttons to add member -->
+                <div class="home-container">
+                    <a class="my-button" title="Relevant Title" href="Lecturer/addLecturerProfile">New Faculty Lecturer</a>
+                    <a class="my-button" title="Relevant Title" href="#">New Student</a>
+                </div>
+            </div>
         </div>
 
-        <!-- buttons to add member -->
-        <div class="home-container">
-            <button class="my-button" title="Relevant Title" href="#">New Faculty Lecturer</button>
-            <button class="my-button" title="Relevant Title" href="#">New Student</button>
-        </div>
+        
 
     </body>
 </html>
