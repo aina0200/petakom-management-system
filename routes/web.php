@@ -25,10 +25,6 @@ Route::get('/Manage Committee Election/test', function () {
     return view('Manage Committee Election/test');
 });
 
-Route::get('/', function () {
-    return view('homepage');
-});
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
