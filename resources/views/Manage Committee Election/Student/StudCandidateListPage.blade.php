@@ -70,7 +70,7 @@
                     <a href="test">
                         <button class="button button2">Vote</button>
                     </a>
-                    <button class="button button2">Result</button>
+                    <button class="button button1">Result</button>
                 </div>
                 <div class="center">
                     <div >

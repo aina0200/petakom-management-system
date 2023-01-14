@@ -137,4 +137,11 @@ mark.red{
 .caption {
    display: block;
    font-size: 18px;
+   margin-left: 30%;
+   margin-top: 20px;
 }
+
+
+ .footer{
+    text-align:end;
+ }
