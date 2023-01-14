@@ -17,7 +17,11 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
-Route::get('/', function () {
+Route::get('/Manage Committee Election/StudCandidateListPage', function () {
+    return view('Manage Committee Election/StudCandidateListPage');
+});
+
+Route::get('/Manage Committee Election/test', function () {
     return view('Manage Committee Election/test');
 });
 

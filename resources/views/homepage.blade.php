@@ -46,16 +46,27 @@
             PETAKOM MANAGEMENT SYSTEM
         </header>
         <div class= "home-container">
+
+            <button class="button homepage">REGISTRATION</button>
+            <button class="button homepage">CALENDAR</button>
+            <button class="button homepage">PROPOSAL</button>
+            <button class="button homepage">ACTIVITY</button>
+
             <a href="Manage Registration/RegNewMem">
                 <button class="button regis">REGISTRATION</button>
             </a>            
             <button class="button calendar">CALENDAR</button>
             <button class="button proposal">PROPOSAL</button>
             <button class="button activity">ACTIVITY</button>
+
         </div>
         <div class= "home-container">
-            <button class="button election">COMMITTEE <br> ELECTION</button>
-            <button class="button bulletin">BULLETIN</button>
+            <a href="Manage Committee Election/StudCandidateListPage">
+            <button class="button homepage">COMMITTEE <br> ELECTION</button>
+            </a>
+            <a href="Manage Committee Election/test">
+            <button class="button homepage">BULLETIN</button>
+            </a>
         </div>
         <footer class="footer">
             © 2022 Petakom Management System, Malaysia
