@@ -37,6 +37,10 @@ Route::get('/Manage Registration/RegNewMem', function () {
     return view('Manage Registration/RegNewMem');
 });
 
+Route::get('/ManageBulletin', function () {
+    return view('Manage Bulletin.manageBulletin');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
