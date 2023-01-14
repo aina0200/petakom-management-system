@@ -47,16 +47,16 @@
         </header>
         <div class= "home-container">
             <a href="Manage Registration/RegNewMem">
-                <button class="button regis">REGISTRATION</button>
+                <button class="button homepage">REGISTRATION</button>
             </a>            
-            <button class="button calendar">CALENDAR</button>
-            <button class="button proposal">PROPOSAL</button>
-            <button class="button activity">ACTIVITY</button>
+            <button class="button homepage">CALENDAR</button>
+            <button class="button homepage">PROPOSAL</button>
+            <button class="button homepage">ACTIVITY</button>
 
         </div>
         <div class= "home-container">
-            <a href="Manage Committee Election/StudCandidateListPage">
-            <button class="button homepage">COMMITTEE <br> ELECTION</button>
+            <a href="Manage Committee Election/Student/StudCandidateListPage">
+                <button class="button homepage">COMMITTEE <br> ELECTION</button>
             </a>
             
             <button class="button homepage">BULLETIN</button>

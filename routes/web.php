@@ -17,12 +17,20 @@ Route::get('/', function(){
     return view('homepage');
 });
 
-Route::get('/Manage Committee Election/StudCandidateListPage', function () {
-    return view('Manage Committee Election/StudCandidateListPage');
+Route::get('/homepage', function(){
+    return view('homepage');
 });
 
-Route::get('/Manage Committee Election/VotingPage', function () {
-    return view('Manage Committee Election/VotingPage');
+Route::get('/Manage Registration/RegNewMem', function(){
+    return view('Manage Registration/RegNewMem');
+});
+
+Route::get('/Manage Committee Election/Student/StudCandidateListPage', function () {
+    return view('Manage Committee Election/Student/StudCandidateListPage');
+});
+
+Route::get('/Manage Committee Election/Student/VotingPage', function () {
+    return view('Manage Committee Election/Student/VotingPage');
 });
 
 Route::middleware([
