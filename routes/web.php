@@ -13,17 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/homepage', function () {
+Route::get('/', function(){
     return view('homepage');
 });
+// Route::get('/', function () {
+//     return view('homepage');
+// });
 
-Route::get('/Manage Committee Election/StudCandidateListPage', function () {
-    return view('Manage Committee Election/StudCandidateListPage');
-});
+// Route::get('/Manage Committee Election/StudCandidateListPage', function () {
+//     return view('Manage Committee Election/StudCandidateListPage');
+// });
 
-Route::get('/Manage Committee Election/test', function () {
-    return view('Manage Committee Election/test');
-});
+// Route::get('/Manage Committee Election/test', function () {
+//     return view('Manage Committee Election/test');
+// });
+
+// Route::get('/Manage Committee Election/VotingPage', function () {
+//     return view('Manage Committee Election/VotingPage');
+// });
 
 Route::middleware([
     'auth:sanctum',

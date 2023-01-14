@@ -22,15 +22,6 @@ align-items: center;
 height: 100%;
  }
 
- .home-container .regis{
-    color: yellow;
-    background-color: rgb(206, 3, 12);
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 12px;
-    padding: 24px;
- }
-
  .button1{
    color: white;
     background-color: rgb(206, 3, 12);
@@ -99,8 +90,31 @@ mark.red{
  .center{
    font-size: 35px;
    position: absolute;
-   justify-content: center;
+   text-align: center;
    background: white;
-   margin-left: 30%;
-   margin-top: 20px;
+   margin-left: 20%;
+   margin-top: 5%;
+   vertical-align: center;
+   display: inline-block;
+   padding-top: 50px;
+   padding-right: 125px;
+   padding-bottom: 50px;
+   padding-left: 125px;
+   border-bottom: 1px solid black;
+
  }
+
+ div.item {
+   vertical-align: center;
+   display: inline-block;
+   width: 200px;
+   background: white;
+}
+.candidate {
+   width: 150px;
+   height: 150px;
+}
+.caption {
+   display: block;
+   font-size: 18px;
+}

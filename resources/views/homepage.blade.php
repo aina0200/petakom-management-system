@@ -43,7 +43,7 @@
 
         <header class="title">
              <img src="/images/petakom-logo.png" alt="Logo"/>
-            PETAKOM MANAGEMENT SYSTEM
+            PETAKOM MANAGEMENT SYSTEMs
         </header>
         <div class= "home-container">
             <button class="button homepage">REGISTRATION</button>

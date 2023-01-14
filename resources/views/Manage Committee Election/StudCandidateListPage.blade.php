@@ -21,6 +21,7 @@
         </style>
         <link href="/css/style.css" rel="stylesheet">
         <link href="/css/nav.css" rel="stylesheet">
+        <link href="/css/pagination.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     </head>
 
@@ -54,7 +55,7 @@
                     <li><a href="#">Calendar</a></li>
                     <li><a href="#">Proposal</a></li>
                     <li><a href="#">Activity</a></li>
-                    <li><a href="#">Committee Election</a></li>
+                    <li><a href="/">Committee Election</a></li>
                     <li><a href="#">Bulletin</a></li>
                 </ul> 
             </div>
@@ -66,25 +67,38 @@
                 <div class="search">
                     <input type="text" placeholder="Search..">
                     <button class="button button1">Search</button>
-                    <button class="button button2">Vote</button>
+                    <a href="test">
+            <button class="button homepage">BULLETIN</button>
+            </a>
                     <button class="button button2">Result</button>
                 </div>
                 <div class="center">
-                    <div>
+                    <div >
                         Calon Majlis Tertinggi
                     </div>
-                    <div class="picture">
-                    <img src="/images/candidate/candidate 1.png" alt="candidate 1">
-                    <img src="/images/candidate/candidate 2.png" alt="candidate 2">
-                    <img src="/images/candidate/candidate 3.png" alt="candidate 2">
+                    <div class="item">
+                        <img class ="candidate" src="/images/candidate/candidate 1.png" alt="candidate 1"/>
+                        <span class="caption">Rubyatun Amirah <br>Binti Hanizam Amin</span>
                     </div>
-                    <div>
-                    Rubyatun Amirah <br>Binti Hanizam Amin
-                    IK SHIM A/P <br>EH FHOT
-                    MUHAMMAD NURHIDAYAT <br>BIN MOHD TAUFIK
+                    <div class="item">
+                        <img class ="candidate" src="/images/candidate/candidate 2.png" alt="candidate 2">
+                        <span class="caption">Ik Shim A/P<br>Eh Fhot</span>
+                    </div>
+                    <div class="item">
+                        <img class ="candidate" src="/images/candidate/candidate 3.png" alt="candidate 2">
+                        <span class="caption">Muhammad Nurhidayat<br>Bin Mohd Taufik</span>
+                    </div>
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a class="active" href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">&raquo;</a>
                     </div>
                 </div>
+                
             </div>
+            
     </body>
             <!-- footer -->
     <footer class="footer">
