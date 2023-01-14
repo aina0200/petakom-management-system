@@ -65,11 +65,11 @@
                     Dashboard > <mark class="red"> Committee Election </mark> 
                 </div>
                 <div class="search">
-                    <input type="text" placeholder="Search..">
+                    <input type="Manage Committee Election/VotingPage" placeholder="Search..">
                     <button class="button button1">Search</button>
                     <a href="test">
-            <button class="button homepage">BULLETIN</button>
-            </a>
+                        <button class="button button2">Vote</button>
+                    </a>
                     <button class="button button2">Result</button>
                 </div>
                 <div class="center">

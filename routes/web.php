@@ -16,32 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function(){
     return view('homepage');
 });
-// Route::get('/', function () {
-//     return view('homepage');
-// });
 
-// Route::get('/Manage Committee Election/StudCandidateListPage', function () {
-//     return view('Manage Committee Election/StudCandidateListPage');
-// });
-
-// Route::get('/Manage Committee Election/test', function () {
-//     return view('Manage Committee Election/test');
-// });
-
-// Route::get('/Manage Committee Election/VotingPage', function () {
-//     return view('Manage Committee Election/VotingPage');
-// });
-
-Route::get('/Manage Registration/Lecturer/addLecturerProfile', function () {
-    return view('Manage Registration/Lecturer/addLecturerProfile');
+Route::get('/Manage Committee Election/StudCandidateListPage', function () {
+    return view('Manage Committee Election/StudCandidateListPage');
 });
 
-Route::get('/Manage Registration/Student/addStudentProfile', function () {
-    return view('Manage Registration/Student/addStudentProfile');
-});
-
-Route::get('/Manage Registration/RegNewMem', function () {
-    return view('Manage Registration/RegNewMem');
+Route::get('/Manage Committee Election/VotingPage', function () {
+    return view('Manage Committee Election/VotingPage');
 });
 
 Route::middleware([
@@ -51,5 +32,5 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
-    })->name('dashboard');    
+    })->name('dashboard');
 });
