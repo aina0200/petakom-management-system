@@ -26,8 +26,11 @@
                     <li><a href="#">Bulletin</a></li>
                 </ul> 
             </div>
-            <!-- div to add content modules -->            
-            <div class="main_content_module">
+            <!-- div to add content modules -->                        
+            <div class="main_content_module">    
+            <div class="top-reg">
+                    Dashboard > Registration > <mark class="reg"> Lecturer </mark> 
+            </div>            
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-5">
@@ -78,7 +81,8 @@
             </div>
         </div>
 
-        
-
     </body>
+    <footer class="footer">
+        © 2022 Petakom Management System, Malaysia
+    </footer>
 </html>
