@@ -40,6 +40,7 @@ height: 100%;
 
  .button1{
    color: white;
+ }
 
  .calendar{
     color: yellow;
@@ -114,6 +115,7 @@ mark.red{
    background: white;
    margin-left: 30%;
    margin-top: 20px;
+ }
 
  .footer{
     text-align:end;

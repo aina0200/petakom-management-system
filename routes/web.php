@@ -37,6 +37,14 @@ Route::get('/Manage Registration/RegNewMem', function () {
     return view('Manage Registration/RegNewMem');
 });
 
+Route::get('/Manage Registration/Student/viewStudentProfile', function () {
+    return view('Manage Registration/Student/viewStudentProfile');
+});
+
+Route::get('/Manage Registration/Student/SearchStudent', function () {
+    return view('Manage Registration/Student/SearchStudent');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

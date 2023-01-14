@@ -47,17 +47,20 @@
         </header>
         <div class= "home-container">
 
-            <button class="button homepage">REGISTRATION</button>
+            <!-- <button class="button homepage">REGISTRATION</button> -->
+            <a href="Manage Registration/RegNewMem">
+                <button class="button homepage">REGISTRATION</button>
+            </a> 
             <button class="button homepage">CALENDAR</button>
             <button class="button homepage">PROPOSAL</button>
             <button class="button homepage">ACTIVITY</button>
 
-            <a href="Manage Registration/RegNewMem">
+            <!-- <a href="Manage Registration/RegNewMem">
                 <button class="button regis">REGISTRATION</button>
-            </a>            
-            <button class="button calendar">CALENDAR</button>
+            </a>             -->
+            <!-- <button class="button calendar">CALENDAR</button>
             <button class="button proposal">PROPOSAL</button>
-            <button class="button activity">ACTIVITY</button>
+            <button class="button activity">ACTIVITY</button> -->
 
         </div>
         <div class= "home-container">
