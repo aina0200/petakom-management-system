@@ -32,6 +32,18 @@ Route::get('/', function(){
 //     return view('Manage Committee Election/VotingPage');
 // });
 
+Route::get('/Manage Registration/Lecturer/addLecturerProfile', function () {
+    return view('Manage Registration/Lecturer/addLecturerProfile');
+});
+
+Route::get('/Manage Registration/Student/addStudentProfile', function () {
+    return view('Manage Registration/Student/addStudentProfile');
+});
+
+Route::get('/Manage Registration/RegNewMem', function () {
+    return view('Manage Registration/RegNewMem');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -39,5 +51,5 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
-    })->name('dashboard');
+    })->name('dashboard');    
 });

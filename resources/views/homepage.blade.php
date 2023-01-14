@@ -33,9 +33,9 @@
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
-                        @if (Route::has('register'))
+                        <!-- @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
+                        @endif -->
                     @endauth
                 </div>
             @endif
@@ -46,10 +46,19 @@
             PETAKOM MANAGEMENT SYSTEMs
         </header>
         <div class= "home-container">
+
             <button class="button homepage">REGISTRATION</button>
             <button class="button homepage">CALENDAR</button>
             <button class="button homepage">PROPOSAL</button>
             <button class="button homepage">ACTIVITY</button>
+
+            <a href="Manage Registration/RegNewMem">
+                <button class="button regis">REGISTRATION</button>
+            </a>            
+            <button class="button calendar">CALENDAR</button>
+            <button class="button proposal">PROPOSAL</button>
+            <button class="button activity">ACTIVITY</button>
+
         </div>
         <div class= "home-container">
             <a href="Manage Committee Election/StudCandidateListPage">
